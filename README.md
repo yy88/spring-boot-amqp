@@ -1,4 +1,4 @@
-#springboot整合RabbitMQ
+# springboot整合RabbitMQ
 * 将消息序列化为json对象，方便阅读
 * 应用启动自动监听队列进行消费
 * 使用注解进行RabbitMQ交换器和队列自动创建及绑定关系，消息监听消费
