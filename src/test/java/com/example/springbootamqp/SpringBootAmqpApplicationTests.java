@@ -23,7 +23,7 @@ public class SpringBootAmqpApplicationTests {
      * 测试发送点对点消息
      */
     public void sendDirect() {
-        rabbitTemplate.convertAndSend("yy.direct", "yyxx.news", "nihao from idea");
+        rabbitTemplate.convertAndSend("yy-exc", "news", "nihao from idea");
         System.out.println("发送成功");
     }
 
